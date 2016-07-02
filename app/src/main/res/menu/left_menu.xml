@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+
+        <item
+            android:id="@+id/PADC_LinkedIn"
+            android:checked="true"
+            android:title="@string/left_menu_linkedIn"
+            android:icon="@drawable/ic_perm_contact_cal_24dp"></item>
+
+        <item
+            android:id="@+id/PADC_JobSearch"
+            android:title="@string/left_menu_job_search"
+            android:icon="@drawable/ic_send_24dp"></item>
+
+        <item
+            android:id="@+id/PADC_Pulse"
+            android:title="@string/left_menu_pulse"
+            android:icon="@drawable/ic_delete_24dp"></item>
+
+        <item
+            android:id="@+id/PADC_Movie"
+            android:title="@string/left_menu_movie"
+            android:icon="@drawable/ic_new_releases_24dp"></item>
+
+        <item
+            android:id="@+id/PADC_WinZin"
+            android:title="@string/left_menu_winzin"
+            android:icon="@drawable/ic_question_answer_24dp"></item>
+
+    </group>
+</menu>
